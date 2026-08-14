@@ -278,7 +278,12 @@ footer{background:var(--panel);border-top:1px solid var(--border);padding:30px 5
     z-index: 1000;
   }
   .nav-right.open { display: flex; }
-  .nav-link { font-size: 1rem; letter-spacing: 0.3em; }
+  .nav-right.open .nav-link {
+    display: block !important;
+    color: var(--white) !important;
+    font-size: 1rem;
+    letter-spacing: 0.3em;
+  }
   .nav-cta { font-size: 0.8rem; padding: 12px 28px; }
 }
 </style>
